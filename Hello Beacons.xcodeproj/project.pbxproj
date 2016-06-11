@@ -15,6 +15,9 @@
 		42F40AF81D00EE75006E1250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F40AF61D00EE75006E1250 /* LaunchScreen.storyboard */; };
 		42F40B031D00EE76006E1250 /* Hello_BeaconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F40B021D00EE76006E1250 /* Hello_BeaconsTests.swift */; };
 		42F40B0E1D00EE76006E1250 /* Hello_BeaconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F40B0D1D00EE76006E1250 /* Hello_BeaconsUITests.swift */; };
+		4A98ED41FA0CC28CD29688EF /* Pods_Hello_BeaconsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3177C8877F15F3D6A22052D7 /* Pods_Hello_BeaconsTests.framework */; };
+		65F64DD5724E22FD2D0C6DEB /* Pods_Hello_BeaconsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9F7DF834C91D1D2ACED6 /* Pods_Hello_BeaconsUITests.framework */; };
+		C4F63D72AAC2545FC1635AB0 /* Pods_Hello_Beacons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB7C088B140C300A6EE0975 /* Pods_Hello_Beacons.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3177C8877F15F3D6A22052D7 /* Pods_Hello_BeaconsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_BeaconsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE1CFB75693E1840B37A445 /* Pods-Hello Beacons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello Beacons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello Beacons/Pods-Hello Beacons.debug.xcconfig"; sourceTree = "<group>"; };
 		42F40AE71D00EE75006E1250 /* Hello Beacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Beacons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F40AEA1D00EE75006E1250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42F40AEC1D00EE75006E1250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		42F40B091D00EE76006E1250 /* Hello BeaconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello BeaconsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F40B0D1D00EE76006E1250 /* Hello_BeaconsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_BeaconsUITests.swift; sourceTree = "<group>"; };
 		42F40B0F1D00EE76006E1250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D88FF9E369840FA4003A22F /* Pods-Hello BeaconsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello BeaconsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello BeaconsUITests/Pods-Hello BeaconsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7813C58FC9652B7955EEA48B /* Pods-Hello BeaconsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello BeaconsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello BeaconsUITests/Pods-Hello BeaconsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6CF2AFBAC622E5C315ABDF8 /* Pods-Hello Beacons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello Beacons.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello Beacons/Pods-Hello Beacons.release.xcconfig"; sourceTree = "<group>"; };
+		AF8093F606107A1FD530B22C /* Pods-Hello BeaconsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello BeaconsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello BeaconsTests/Pods-Hello BeaconsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2B51D6F49087576BFC6105B /* Pods-Hello BeaconsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello BeaconsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello BeaconsTests/Pods-Hello BeaconsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB7C088B140C300A6EE0975 /* Pods_Hello_Beacons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Beacons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B9F7DF834C91D1D2ACED6 /* Pods_Hello_BeaconsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_BeaconsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F63D72AAC2545FC1635AB0 /* Pods_Hello_Beacons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A98ED41FA0CC28CD29688EF /* Pods_Hello_BeaconsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F64DD5724E22FD2D0C6DEB /* Pods_Hello_BeaconsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310A42067B635CEB80F134EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CE1CFB75693E1840B37A445 /* Pods-Hello Beacons.debug.xcconfig */,
+				A6CF2AFBAC622E5C315ABDF8 /* Pods-Hello Beacons.release.xcconfig */,
+				B2B51D6F49087576BFC6105B /* Pods-Hello BeaconsTests.debug.xcconfig */,
+				AF8093F606107A1FD530B22C /* Pods-Hello BeaconsTests.release.xcconfig */,
+				6D88FF9E369840FA4003A22F /* Pods-Hello BeaconsUITests.debug.xcconfig */,
+				7813C58FC9652B7955EEA48B /* Pods-Hello BeaconsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		42F40ADE1D00EE75006E1250 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				42F40B011D00EE76006E1250 /* Hello BeaconsTests */,
 				42F40B0C1D00EE76006E1250 /* Hello BeaconsUITests */,
 				42F40AE81D00EE75006E1250 /* Products */,
+				310A42067B635CEB80F134EF /* Pods */,
+				64CB37040C0B4B25AC6858D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = "Hello BeaconsUITests";
 			sourceTree = "<group>";
 		};
+		64CB37040C0B4B25AC6858D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB7C088B140C300A6EE0975 /* Pods_Hello_Beacons.framework */,
+				3177C8877F15F3D6A22052D7 /* Pods_Hello_BeaconsTests.framework */,
+				F49B9F7DF834C91D1D2ACED6 /* Pods_Hello_BeaconsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F40B121D00EE76006E1250 /* Build configuration list for PBXNativeTarget "Hello Beacons" */;
 			buildPhases = (
+				4E0031B6835086372F0C0801 /* 📦 Check Pods Manifest.lock */,
 				42F40AE31D00EE75006E1250 /* Sources */,
 				42F40AE41D00EE75006E1250 /* Frameworks */,
 				42F40AE51D00EE75006E1250 /* Resources */,
+				CDF0FB712BFD5B897F3AB7F9 /* 📦 Embed Pods Frameworks */,
+				ECB49FC1180EE2B67198F11E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F40B151D00EE76006E1250 /* Build configuration list for PBXNativeTarget "Hello BeaconsTests" */;
 			buildPhases = (
+				9E6F56C014B16A65BEB0B56D /* 📦 Check Pods Manifest.lock */,
 				42F40AFA1D00EE76006E1250 /* Sources */,
 				42F40AFB1D00EE76006E1250 /* Frameworks */,
 				42F40AFC1D00EE76006E1250 /* Resources */,
+				530255ECEF88E11A1A60B0BF /* 📦 Embed Pods Frameworks */,
+				6379D8ADB5A05647DEF7732E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F40B181D00EE76006E1250 /* Build configuration list for PBXNativeTarget "Hello BeaconsUITests" */;
 			buildPhases = (
+				DC144203C6F603F9AC961BE4 /* 📦 Check Pods Manifest.lock */,
 				42F40B051D00EE76006E1250 /* Sources */,
 				42F40B061D00EE76006E1250 /* Frameworks */,
 				42F40B071D00EE76006E1250 /* Resources */,
+				7343B71B86FBFBEB5424E323 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E0031B6835086372F0C0801 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		530255ECEF88E11A1A60B0BF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello BeaconsTests/Pods-Hello BeaconsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6379D8ADB5A05647DEF7732E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello BeaconsTests/Pods-Hello BeaconsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7343B71B86FBFBEB5424E323 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello BeaconsUITests/Pods-Hello BeaconsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6F56C014B16A65BEB0B56D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF0FB712BFD5B897F3AB7F9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello Beacons/Pods-Hello Beacons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC144203C6F603F9AC961BE4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB49FC1180EE2B67198F11E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello Beacons/Pods-Hello Beacons-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42F40AE31D00EE75006E1250 /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		42F40B131D00EE76006E1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE1CFB75693E1840B37A445 /* Pods-Hello Beacons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hello Beacons/Info.plist";
@@ -414,6 +586,7 @@
 		};
 		42F40B141D00EE76006E1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CF2AFBAC622E5C315ABDF8 /* Pods-Hello Beacons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hello Beacons/Info.plist";
@@ -425,6 +598,7 @@
 		};
 		42F40B161D00EE76006E1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B51D6F49087576BFC6105B /* Pods-Hello BeaconsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Hello BeaconsTests/Info.plist";
@@ -437,6 +611,7 @@
 		};
 		42F40B171D00EE76006E1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8093F606107A1FD530B22C /* Pods-Hello BeaconsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Hello BeaconsTests/Info.plist";
@@ -449,6 +624,7 @@
 		};
 		42F40B191D00EE76006E1250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D88FF9E369840FA4003A22F /* Pods-Hello BeaconsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Hello BeaconsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		42F40B1A1D00EE76006E1250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7813C58FC9652B7955EEA48B /* Pods-Hello BeaconsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Hello BeaconsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				42F40B141D00EE76006E1250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42F40B151D00EE76006E1250 /* Build configuration list for PBXNativeTarget "Hello BeaconsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				42F40B171D00EE76006E1250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42F40B181D00EE76006E1250 /* Build configuration list for PBXNativeTarget "Hello BeaconsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				42F40B1A1D00EE76006E1250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
