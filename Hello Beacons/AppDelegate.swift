@@ -8,15 +8,21 @@
 
 import UIKit
 import CoreData
+import KontaktSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var beaconManager: KTKBeaconManager!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set API Key
+        Kontakt.setAPIKey("YOUR API KEY")
+        
         return true
     }
 
@@ -108,4 +114,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
